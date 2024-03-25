@@ -2,7 +2,7 @@
 <html lang="ja">
 
 <head>
-    <title>Lilium難易度表</title>
+    <title>Lyricia自作差分置き場</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,7 +19,7 @@
     <header class="mb-3">
         <nav class="navbar navbar-dark bg-dark">
             <div class="container-fluid">
-                <span class="navbar-brand mb-0 h1">Lilium難易度表</span>
+                <span class="navbar-brand mb-0 h1">Lyricia自作差分置き場</span>
             </div>
         </nav>
     </header>
@@ -30,7 +30,7 @@
             <p>ここに難易度表の説明文。次期難易度表フォーマット対応。</p>
             <p>難易度表の読み込みと表示に数秒かかります。</p>
             <hr>
-            <p class="mb-0">更新が止まったGENOCIDE発狂難易度表に次ぐ新たな発狂難易度表を作りたいな～～</p>
+            <p class="mb-0">自作差分置き場</p>
         </div>
 
 
@@ -83,7 +83,8 @@
                         .md5 + "' target='_blank'>" + info[i].title + "</a></td>").appendTo(str);
 
                     // Artist
-                    $("<td width='40%'>" + info[i].artist + "</td>").appendTo(str);
+                    $("<td width='40%'>" +
+                      "<a href= info[i].url + ' target='_blank'>" + info[i].artist + "</td>").appendTo(str);
 
                     // Comment
                     $("<td width='10%'>" + info[i].comment + "</td>").appendTo(str);

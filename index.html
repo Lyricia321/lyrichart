@@ -83,12 +83,7 @@
                         .md5 + "' target='_blank'>" + info[i].title + "</a></td>").appendTo(str);
 
                     // Artist
-                    $("<td width='40%'>" + "<a href='info[i].url' target='_blank'>"
-                      + info[i].artist + "</a></td>").appendTo(str);
-
-                    // 差分DL
-                    $("<td width='40%'>" + "<a href='info[i].url_diff' target='_blank'>"
-                      + "DL" + "</a></td>").appendTo(str);
+                    $("<td width='40%'>" + info[i].artist + "</a></td>").appendTo(str);
 
                     // Comment
                     $("<td width='10%'>" + info[i].comment + "</td>").appendTo(str);

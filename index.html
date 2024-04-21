@@ -99,8 +99,9 @@
                     str.appendTo(obj);
                     count++;
 
-                    
-                    
+                    // 譜面DL
+                    $("<td width='5%'>" +
+                        "<a href='"info[i].url_diff"' target='_blank'>" + "DL" + "</a></td>").appendTo(str);
 
                 }
                 $("</tbody>").appendTo(obj);

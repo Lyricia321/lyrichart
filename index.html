@@ -56,7 +56,7 @@
                 var obj = $("#table_int");
 
                 obj.html("");
-                $("<thead class='table-dark'><tr><th>Level</th><th>Title</th><th>Artist</th><th>Comment</th><th>Chart</th></tr></thead><tbody>")
+                $("<thead class='table-dark'><tr><th>Level</th><th>Title</th><th>Artist</th><th>Comment</th><th>Chart</th><th> </th></tr></thead><tbody>")
                     .appendTo(obj);
                 var obj_sep = null;
                 for (var i = 0; i < info.length; i++) {
@@ -100,8 +100,7 @@
                     count++;
 
                     // 譜面DL
-                    $("<td width='10%'>" +
-                        "<a href='info[i].url_diff' target='_blank'>" + "DL" + "</a></td>").appendTo(str);
+                    $("<td width='10%'>" + info[i].url_diff + "</td>").appendTo(str);
                     str.appendTo(obj);
                     count++;
                     

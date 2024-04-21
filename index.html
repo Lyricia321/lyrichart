@@ -99,6 +99,15 @@
                     str.appendTo(obj);
                     count++;
 
+                    // 譜面DL
+                    $("<td width='10%'>" +
+                        "<a href='https://bms-score-viewer.pages.dev/view?md5=" + info[
+                            i]
+                        .md5 + "' target='_blank'>" + "DL" + "</a></td>").appendTo(str);
+                    str.appendTo(obj);
+                    count++;
+                    
+
                 }
                 $("</tbody>").appendTo(obj);
 

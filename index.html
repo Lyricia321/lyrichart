@@ -100,7 +100,8 @@
                     count++;
 
                     // 譜面DL
-                    $("<td width='10%'>" + info[i].url_diff + "</td>").appendTo(str);
+                    $("<td width='10%'>" +
+                        "<a href='info[i].url_diff' target='_blank'>" + "DL" + "</a></td>").appendTo(str);
                     str.appendTo(obj);
                     count++;
                     

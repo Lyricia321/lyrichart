@@ -84,7 +84,8 @@
                         .md5 + "' target='_blank'>" + info[i].title + "</a></td>").appendTo(str);
 
                     // Artist
-                    $("<td width='30%'>" + info[i].artist + "</a></td>").appendTo(str);
+                    $("<td width='30%'>" +
+                        "<a href='" + info[i].url + "' target='_blank'>" + info[i].artist + "</a></td>").appendTo(str);
 
                     // 譜面画像
                     $("<td width='5%'>" +

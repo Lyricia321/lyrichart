@@ -103,7 +103,7 @@
                         $("<td width='3%'>" +
                             "<a href='" + info[i].url_diff + "' target='_blank'>" + "DL" + "</a></td>").appendTo(str);
                     }else{
-                        $("<td width='5%'>" + "/" + "</td>").appendTo(str);
+                        $("<td width='3%'>" + "/" + "</td>").appendTo(str);
                     }
 
                     // 譜面動画（Youtube)
@@ -119,7 +119,7 @@
                 $("</tbody>").appendTo(obj);
 
                 if (obj_sep != null) {
-                    obj_sep.html("<td class='table-dark' style='text-align:center' colspan='6'>" + "<b>" + mark + x +
+                    obj_sep.html("<td class='table-dark' style='text-align:center' colspan='7'>" + "<b>" + mark + x +
                         " (" + count + "譜面)</b></td>");
                 }
             }

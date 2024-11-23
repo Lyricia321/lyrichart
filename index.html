@@ -89,7 +89,7 @@
                         "<a href='" + info[i].url + "' target='_blank'>" + info[i].artist + "</a></td>").appendTo(str);
 
                     // 譜面画像
-                    $("<td width='4%'>" +
+                    $("<td width='3%'>" +
                         "<a href='https://bms-score-viewer.pages.dev/view?md5=" + info[i].md5 + "' target='_blank'>" + 
                       "<img width='24' height='24' src='https://img.icons8.com/windows/32/sheet-music.png' alt='sheet-music' title='Chart View'/>" + 
                       "</a></td>").appendTo(str);
@@ -98,7 +98,7 @@
                     if (info[i].url_youtube != ""){
                         $("<td width='3%'>" +
                             "<a href='" + info[i].url_youtube + "' target='_blank'>" +
-                            "<img width='24' height='24' src='https://img.icons8.com/color/48/youtube-play.png' alt='youtube-play'title='Chart Movie'/>" +
+                            "<img width='32' height='32' src='https://img.icons8.com/color/48/youtube-play.png' alt='youtube-play'title='Chart Movie'/>" +
                             "</a></td>").appendTo(str);
                      }else{
                         $("<td width='3%'>" + "／" + "</td>").appendTo(str);
@@ -115,7 +115,7 @@
                     }
                    
                     // Comment
-                    $("<td width='20%'>" + info[i].comment + "</td>").appendTo(str);
+                    $("<td width='21%'>" + info[i].comment + "</td>").appendTo(str);
                     str.appendTo(obj);
                     count++;
 

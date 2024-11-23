@@ -14,7 +14,7 @@
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
     </script>
     <!-- Google font Icon -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
 </head>
 
@@ -34,7 +34,7 @@
             <p>基本的に難易度はst基準, ◆がついてるのは◆基準（LN譜面）</p>
             <p>査定はガバなのでコロコロ変わるかも</p>
             <p>※ギミックの追加や曲微改変等、同梱譜面とズレのある差分もありますが全て意図的なものです。</p>
-            <span class="material-symbols-outlined">youtube_activity</span>
+            <span class="material-icons">thumb_up</span>
             <p>Twitter:@Lyricia_</p>
             
         </div>
@@ -67,7 +67,7 @@
                 for (var i = 0; i < info.length; i++) {
                     if (x != info[i].level) {
                         if (obj_sep != null) {
-                            obj_sep.html("<td colspan='6'>" + "<b>" + mark + x + " (" + count +
+                            obj_sep.html("<td colspan='7'>" + "<b>" + mark + x + " (" + count +
                                 "譜面)</b></td>");
                         }
                         obj_sep = $("<tr class='table-dark' style='text-align:center' id='" + mark + info[i].level +

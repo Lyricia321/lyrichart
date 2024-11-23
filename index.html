@@ -92,7 +92,7 @@
                         "<a href='" + info[i].url + "' target='_blank'>" + info[i].artist + "</a></td>").appendTo(str);
 
                     // 譜面画像
-                    $("<td width='5%'>" +
+                    $("<td width='4%'>" +
                         "<a href='https://bms-score-viewer.pages.dev/view?md5=" + info[
                             i]
                         .md5 + "' target='_blank'>" + "View" + "</a></td>").appendTo(str);
@@ -100,15 +100,15 @@
 
                     // 譜面DL
                     if (info[i].url_diff != ""){
-                        $("<td width='5%'>" +
+                        $("<td width='3%'>" +
                             "<a href='" + info[i].url_diff + "' target='_blank'>" + "DL" + "</a></td>").appendTo(str);
                     }else{
                         $("<td width='5%'>" + "/" + "</td>").appendTo(str);
                     }
 
                     // 譜面動画（Youtube)
-                    $("<td width='5%'>" + 
-                          "<a href='" + info[i].url_youtube + "' target='_blank'>" + "<span class="material-icons">slideshow</span>" + "</a></td>").appendTo(str);
+                    $("<td width='3%'>" + 
+                          "<a href='" + info[i].url_youtube + "' target='_blank'>" + <span class="material-icons"> slideshow + "</span></a></td>").appendTo(str);
 
                     // Comment
                     $("<td width='20%'>" + info[i].comment + "</td>").appendTo(str);

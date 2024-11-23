@@ -34,7 +34,6 @@
             <p>基本的に難易度はst基準, ◆がついてるのは◆基準（LN譜面）</p>
             <p>査定はガバなのでコロコロ変わるかも</p>
             <p>※ギミックの追加や曲微改変等、同梱譜面とズレのある差分もありますが全て意図的なものです。</p>
-            <span class="material-icons">slideshow</span>
             <p>Twitter:@Lyricia_</p>
             
         </div>
@@ -109,7 +108,7 @@
 
                     // 譜面動画（Youtube)
                     $("<td width='5%'>" + 
-                          "<a href='" + info[i].url_youtube + "' target='_blank'>" + "YT" + "</a></td>").appendTo(str);
+                          "<a href='" + info[i].url_youtube + "' target='_blank'>" + "<span class="material-icons">slideshow</span>" + "</a></td>").appendTo(str);
 
                     // Comment
                     $("<td width='20%'>" + info[i].comment + "</td>").appendTo(str);

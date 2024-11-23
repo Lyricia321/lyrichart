@@ -96,13 +96,13 @@
                     //str.appendTo(obj);
 
                      // 譜面動画（Youtube)
-                    if (info[i].url_diff != ""){
+                    if (info[i].url_youtube != ""){
                         $("<td width='3%'>" +
                             "<a href='" + info[i].url_youtube + "' target='_blank'>" +
                             "<img width='24' height='24' src='https://img.icons8.com/color/48/youtube-play.png' alt='youtube-play'/>" +
                             "</a></td>").appendTo(str);
                      }else{
-                        $("<td width='3%'>" + " / " + "</td>").appendTo(str);
+                        $("<td width='3%'>" + "／" + "</td>").appendTo(str);
                     }
 
                     // 譜面DL
@@ -112,7 +112,7 @@
                             "<img width='24' height='24' src='https://img.icons8.com/material/24/download--v1.png' alt='download--v1'/>" +
                             "</a></td>").appendTo(str);
                     }else{
-                        $("<td width='3%'>" + " / " + "</td>").appendTo(str);
+                        $("<td width='3%'>" + "／" + "</td>").appendTo(str);
                     }
                    
                     // Comment

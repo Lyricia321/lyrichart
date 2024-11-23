@@ -96,7 +96,11 @@
                         "<a href='https://bms-score-viewer.pages.dev/view?md5=" + info[
                             i]
                         .md5 + "' target='_blank'>" + "View" + "</a></td>").appendTo(str);
-                    str.appendTo(obj);
+                    //str.appendTo(obj);
+
+                     // 譜面動画（Youtube)
+                    $("<td width='3%'>" + 
+                          "<a href='" + info[i].url_youtube + "' target='_blank'>" + "VDO" + "</a></td>").appendTo(str);
 
                     // 譜面DL
                     if (info[i].url_diff != ""){
@@ -105,11 +109,7 @@
                     }else{
                         $("<td width='3%'>" + "/" + "</td>").appendTo(str);
                     }
-
-                    // 譜面動画（Youtube)
-                    $("<td width='3%'>" + 
-                          "<a href='" + info[i].url_youtube + "' target='_blank'>" + "VDO" + "</a></td>").appendTo(str);
-
+                   
                     // Comment
                     $("<td width='20%'>" + info[i].comment + "</td>").appendTo(str);
                     str.appendTo(obj);

@@ -4,4 +4,8 @@
 "data_url" : "https://script.google.com/macros/s/AKfycbwPblMEWdzF2btwqR2oXXgA--hNHdjGXXOXPjwck7fksxKYdr7WPOAzo9XTifRhu6oN/exec"
 }
 
-{"name":"Lyrichart段位認定 [Lily]","constraint":["grade_mirror","gauge_lr2","ln",""],"md5": ["682a54af15edb47a88cff8ebf4dc5f3f","ad5e5670d530bb2574eb3aa655d485e4","9bd956a907182dcfb1a44fdda7caf733","3fc231c39c950b8b743173384848902c"]}
+"course":[
+{"name":"Lyrichart段位認定 [Lily]","constraint":["grade_mirror","gauge_lr2","ln",""],"md5": ["682a54af15edb47a88cff8ebf4dc5f3f","ad5e5670d530bb2574eb3aa655d485e4","9bd956a907182dcfb1a44fdda7caf733","3fc231c39c950b8b743173384848902c"]},
+{"name":"Lyrichart段位認定 [White Lily]","constraint":["grade_mirror","gauge_lr2","ln",""],"md5": ["98775c19800ef03c627fbbf8d9475360","10008087692434788fc87762de92eb77","2d9f6dfceb8a342e33eaf05fa10249e8","b1ade641d47ec0e67cac1d4ea65f54cc"]},
+{"name":"Lyrichart段位認定 [Black Lily]","constraint":["grade_mirror","gauge_lr2","ln",""],"md5": ["7a2264ba1d60937f65d1bd89a8b7871e","9821bbb88f9268ce35440bd58c6e991c","2555e3e37e632a46c19fdf154f928d58","d7465a2e1794f67037f107e6b399e7b4"]}
+]}

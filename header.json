@@ -1,8 +1,7 @@
 {
 "name" : "Lyrichart",
 "symbol" : "Ly",
-"data_url" : "https://script.google.com/macros/s/AKfycbwPblMEWdzF2btwqR2oXXgA--hNHdjGXXOXPjwck7fksxKYdr7WPOAzo9XTifRhu6oN/exec"
-}
+"data_url" : "https://script.google.com/macros/s/AKfycbwPblMEWdzF2btwqR2oXXgA--hNHdjGXXOXPjwck7fksxKYdr7WPOAzo9XTifRhu6oN/exec",
 
 "course":[
 {"name":"Lyrichart段位認定 [Lily]","constraint":["grade_mirror","gauge_lr2","ln",""],"md5": ["682a54af15edb47a88cff8ebf4dc5f3f","ad5e5670d530bb2574eb3aa655d485e4","9bd956a907182dcfb1a44fdda7caf733","3fc231c39c950b8b743173384848902c"]},
